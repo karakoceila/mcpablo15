@@ -3,12 +3,8 @@ import { motion } from 'motion/react';
 import { ExternalLink } from 'lucide-react';
 
 const tourDates = [
-  { date: 'MAY 15', city: 'TO BE ANNOUNCED', venue: 'TO BE ANNOUNCED', status: 'Tickets' },
-  { date: 'MAY 18', city: 'TO BE ANNOUNCED', venue: 'TO BE ANNOUNCED', status: 'Sold Out' },
-  { date: 'MAY 22', city: 'TO BE ANNOUNCED', venue: 'TO BE ANNOUNCED', status: 'Tickets' },
-  { date: 'JUN 01', city: 'TO BE ANNOUNCED', venue: 'TO BE ANNOUNCED', status: 'Tickets' },
-  { date: 'JUN 05', city: 'TO BE ANNOUNCED', venue: 'TO BE ANNOUNCED', status: 'Tickets' },
-  { date: 'JUN 10', city: 'TO BE ANNOUNCED', venue: 'TO BE ANNOUNCED', status: 'Tickets' },
+  { date: 'SEP 29', city: 'TO BE ANNOUNCED', venue: 'TO BE ANNOUNCED', status: 'STAY TUNED' },
+  { date: 'DEC 31', city: 'TO BE ANNOUNCED', venue: 'TO BE ANNOUNCED', status: 'STAY TUNED' },
 ];
 
 export default function TourSection() {
@@ -21,7 +17,7 @@ export default function TourSection() {
           viewport={{ once: true }}
           className="font-display text-4xl md:text-5xl font-black mb-12 text-center uppercase tracking-tighter"
         >
-          Tour
+          News
         </motion.h2>
 
         <div className="max-w-4xl mx-auto space-y-4">
@@ -58,7 +54,7 @@ export default function TourSection() {
 
         <div className="mt-16 text-center">
           <button className="inline-flex items-center gap-2 text-gray-500 hover:text-white transition-colors font-black text-xs uppercase tracking-[0.3em]">
-            View All Dates <ExternalLink size={14} />
+            View All News <ExternalLink size={14} />
           </button>
         </div>
       </div>

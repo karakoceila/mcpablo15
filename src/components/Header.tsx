@@ -5,7 +5,7 @@ import { Menu, X, Facebook, Instagram, Twitter, Youtube, Music, Send, Mail } fro
 
 const navLinks = [
   { name: 'Home', href: '#home' },
-  { name: 'Tour', href: '#tour' },
+  { name: 'News', href: '#news' },
   { name: 'Music', href: '#music' },
   { name: 'Videos', href: '#gallery' },
 ];
