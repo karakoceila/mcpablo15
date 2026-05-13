@@ -1,0 +1,8 @@
+{
+  "name": "McPablo15 Official",
+  "description": "Official landing page for rapper McPablo15, featuring his latest album, music videos, news, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
